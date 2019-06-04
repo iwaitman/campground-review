@@ -1,0 +1,14 @@
+<% include partials/header %>
+<h1>Campgrounds will be listed here!</h1>
+<ul>
+	<% campgrounds.forEach(function(name) { %>
+	<div>
+		<h2><%= name.name%></h2>
+		<img src="<%=name.image%>">		
+	</div>
+	<% }) %>
+</ul>
+
+<a href="/">Back to Home Page</a>
+
+<% include partials/footer %>

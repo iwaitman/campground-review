@@ -1,0 +1,25 @@
+{
+  "name": "campground_review_app",
+  "version": "1.0.0",
+  "description": "Practice app to review campgrounds",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iwaitman/campground-review.git"
+  },
+  "author": "Isaac Waitman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iwaitman/campground-review/issues"
+  },
+  "homepage": "https://github.com/iwaitman/campground-review#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.17.1",
+    "request": "^2.88.0"
+  }
+}
